@@ -1,10 +1,4 @@
 @import url("fontawesome-all.min.css");
-/*
-  Theme Name: DevFolio
-  Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*======================================
 //--//-->   STYLES GENERALES
@@ -406,7 +400,12 @@ a:hover {
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
-
+.navbarrr{
+  transition: all .5s ease-in-out;
+  background-color: black;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
 .navbar-b {
   transition: all .5s ease-in-out;
   background-color: transparent;
@@ -547,11 +546,157 @@ color: #fff;
 .navbar-b .dropdown-menu .dropdown-item.active {
   background-color: #0078ff;
 }
+/*--/ Custom Nav by Justin /--*/
+
+.navbar-c {
+  transition: all .5s ease-in-out;
+  background-color: rgb(22, 147, 185);
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
+
+.navbar-c.navbar-reduce {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-c.navbar-trans .nav-item,
+.navbar-c.navbar-reduce .nav-item {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.navbar-c.navbar-trans .nav-link,
+.navbar-c.navbar-reduce .nav-link {
+color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-c.navbar-trans .nav-link:before,
+.navbar-c.navbar-reduce .nav-link:before {
+  content: '';
+  position: absolute;
+  margin-left: 0px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: all 500ms ease;
+}
+
+.navbar-c.navbar-trans .nav-link:hover,
+.navbar-c.navbar-reduce .nav-link:hover {
+  color: #1B1B1B;
+}
+
+.navbar-c.navbar-trans .nav-link:hover:before,
+.navbar-c.navbar-reduce .nav-link:hover:before {
+  width: 35px;
+}
+
+.navbar-c.navbar-trans .show > .nav-link:before,
+.navbar-c.navbar-trans .active > .nav-link:before,
+.navbar-c.navbar-trans .nav-link.show:before,
+.navbar-c.navbar-trans .nav-link.active:before,
+.navbar-c.navbar-reduce .show > .nav-link:before,
+.navbar-c.navbar-reduce .active > .nav-link:before,
+.navbar-c.navbar-reduce .nav-link.show:before,
+.navbar-c.navbar-reduce .nav-link.active:before {
+  width: 35px;
+}
+
+.navbar-c.navbar-trans .nav-link:before {
+  background-color: #fff;
+}
+
+.navbar-c.navbar-trans .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-c.navbar-trans .show > .nav-link,
+.navbar-c.navbar-trans .active > .nav-link,
+.navbar-c.navbar-trans .nav-link.show,
+.navbar-c.navbar-trans .nav-link.active {
+  color: #fff;
+}
+
+.navbar-c.navbar-reduce {
+  transition: all .5s ease-in-out;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-c.navbar-reduce .nav-link {
+  color: #0078ff;
+}
+
+.navbar-c.navbar-reduce .nav-link:before {
+  background-color: #0078ff;
+}
+
+.navbar-c.navbar-reduce .nav-link:hover {
+  color: #0078ff;
+}
+
+.navbar-c.navbar-reduce .show > .nav-link,
+.navbar-c.navbar-reduce .active > .nav-link,
+.navbar-c.navbar-reduce .nav-link.show,
+.navbar-c.navbar-reduce .nav-link.active {
+  color: #0078ff;
+}
+
+.navbar-c.navbar-reduce .navbar-brand {
+  color: #0078ff;
+}
+
+.navbar-c.navbar-reduce .navbar-toggler span {
+  background-color: #1B1B1B;
+}
+
+.navbar-c .navbar-brand {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar-c .navbar-nav .dropdown-item.show .dropdown-menu,
+.navbar-c .dropdown.show .dropdown-menu,
+.navbar-c .dropdown-btn.show .dropdown-menu {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  visibility: visible !important;
+}
+
+.navbar-c .dropdown-menu {
+  margin: 1.12rem 0 0;
+  border-radius: 0;
+}
+
+.navbar-c .dropdown-menu .dropdown-item {
+  padding: .7rem 1.7rem;
+  transition: all 500ms ease;
+}
+
+.navbar-c .dropdown-menu .dropdown-item:hover {
+  background-color: #0078ff;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.navbar-c .dropdown-menu .dropdown-item.active {
+  background-color: #0078ff;
+}
+
 
 /*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
   position: relative;
+  padding-top: 1.563rem;
+  color:blue;
+  background-color:green;
 }
 
 .navbar-toggler:focus,
@@ -561,7 +706,7 @@ color: #fff;
 
 .navbar-toggler span {
   display: block;
-  background-color: #fff;
+  background-color:red;
   height: 3px;
   width: 25px;
   margin-top: 4px;
