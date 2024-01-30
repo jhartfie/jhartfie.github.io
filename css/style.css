@@ -37,7 +37,7 @@ a:hover {
   color: #0078ff;
 }
 .icon.brands:before {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: "Font Awesome 5 Brands";
 }
 .icon.solid:before {
   font-weight: 900;
@@ -100,7 +100,7 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .paralax-mf {
@@ -176,7 +176,7 @@ a:hover {
 }
 
 .title-left:before {
-  content: '';
+  content: "";
   position: absolute;
   height: 3px;
   background-color: #0078ff;
@@ -209,13 +209,14 @@ a:hover {
   display: inline-block;
 }
 
-.socials .ico-circle { /*how to edit size of socials */
+.socials .ico-circle {
+  /*how to edit size of socials */
   height: 40px; /*40 originally*/
   width: 40px;
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  color:rgb(230, 148, 116);
+  color: rgb(230, 148, 116);
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px rgb(255, 30, 0);
   transition: all 500ms ease;
@@ -292,7 +293,7 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
   width: 25px;
 }
 
@@ -309,7 +310,7 @@ a:hover {
   width: 42px;
   height: 42px;
   background-color: #0078ff;
-  opacity: .7;
+  opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
   text-align: center;
@@ -400,14 +401,14 @@ a:hover {
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
-.navbarrr{
-  transition: all .5s ease-in-out;
+.navbarrr {
+  transition: all 0.5s ease-in-out;
   background-color: black;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
 .navbar-b {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
@@ -426,14 +427,14 @@ a:hover {
 
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
-color: #fff;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .navbar-b.navbar-trans .nav-link:before,
 .navbar-b.navbar-reduce .nav-link:before {
-  content: '';
+  content: "";
   position: absolute;
   margin-left: 0px;
   width: 0%;
@@ -445,7 +446,7 @@ color: #fff;
 
 .navbar-b.navbar-trans .nav-link:hover,
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #1b1b1b;
 }
 
 .navbar-b.navbar-trans .nav-link:hover:before,
@@ -480,7 +481,7 @@ color: #fff;
 }
 
 .navbar-b.navbar-reduce {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -510,7 +511,7 @@ color: #fff;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 
 .navbar-b .navbar-brand {
@@ -533,7 +534,7 @@ color: #fff;
 }
 
 .navbar-b .dropdown-menu .dropdown-item {
-  padding: .7rem 1.7rem;
+  padding: 0.7rem 1.7rem;
   transition: all 500ms ease;
 }
 
@@ -549,7 +550,7 @@ color: #fff;
 /*--/ Custom Nav by Justin /--*/
 
 .navbar-c {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: rgb(22, 147, 185);
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
@@ -568,14 +569,14 @@ color: #fff;
 
 .navbar-c.navbar-trans .nav-link,
 .navbar-c.navbar-reduce .nav-link {
-color: #fff;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .navbar-c.navbar-trans .nav-link:before,
 .navbar-c.navbar-reduce .nav-link:before {
-  content: '';
+  content: "";
   position: absolute;
   margin-left: 0px;
   width: 0%;
@@ -587,7 +588,7 @@ color: #fff;
 
 .navbar-c.navbar-trans .nav-link:hover,
 .navbar-c.navbar-reduce .nav-link:hover {
-  color: #1B1B1B;
+  color: #1b1b1b;
 }
 
 .navbar-c.navbar-trans .nav-link:hover:before,
@@ -622,7 +623,7 @@ color: #fff;
 }
 
 .navbar-c.navbar-reduce {
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -652,7 +653,7 @@ color: #fff;
 }
 
 .navbar-c.navbar-reduce .navbar-toggler span {
-  background-color: #1B1B1B;
+  background-color: #1b1b1b;
 }
 
 .navbar-c .navbar-brand {
@@ -675,7 +676,7 @@ color: #fff;
 }
 
 .navbar-c .dropdown-menu .dropdown-item {
-  padding: .7rem 1.7rem;
+  padding: 0.7rem 1.7rem;
   transition: all 500ms ease;
 }
 
@@ -689,14 +690,13 @@ color: #fff;
   background-color: #0078ff;
 }
 
-
 /*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
   position: relative;
   padding-top: 1.563rem;
-  color:blue;
-  background-color:green;
+  color: blue;
+  background-color: green;
 }
 
 .navbar-toggler:focus,
@@ -706,7 +706,7 @@ color: #fff;
 
 .navbar-toggler span {
   display: block;
-  background-color:red;
+  background-color: red;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -719,9 +719,9 @@ color: #fff;
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-  transition: -webkit-transform .35s ease-in-out;
-  transition: transform .35s ease-in-out;
-  transition: transform .35s ease-in-out, -webkit-transform .35s ease-in-out;
+  transition: -webkit-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -771,19 +771,21 @@ color: #fff;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .9;
+  opacity: 0.9;
 }
 
-.intro .intro-title { /*hello im justin*/
+.intro .intro-title {
+  /*hello im justin*/
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
 }
 
-.intro .intro-subtitle { /*scrolling*/
+.intro .intro-subtitle {
+  /*scrolling*/
   font-size: 1.5rem;
   font-weight: 300;
-  color:#fff;
+  color: #fff;
 }
 
 .intro .text-slider-items {
@@ -843,13 +845,13 @@ color: #fff;
 
 .skill-mf .progress {
   background-color: #cde1f8;
-  margin: .5rem 0 1.2rem 0;
+  margin: 0.5rem 0 1.2rem 0;
   border-radius: 0;
-  height: .7rem;
+  height: 0.7rem;
 }
 
 .skill-mf .progress .progress-bar {
-  height: .7rem;
+  height: 0.7rem;
   background-color: #0078ff;
 }
 
@@ -885,7 +887,7 @@ color: #fff;
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
-  padding: .4rem 0;
+  padding: 0.4rem 0;
 }
 
 .service-box .s-description {
@@ -948,7 +950,7 @@ color: #fff;
 
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .work-content .w-more .w-ctegory {
@@ -966,7 +968,7 @@ color: #fff;
 }
 
 .work-content .w-like .num-like {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 .w-title {
@@ -1046,14 +1048,14 @@ color: #fff;
   color: #fff;
   display: inline-block;
   text-transform: uppercase;
-  font-size: .7rem;
-  letter-spacing: .1px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1px;
   margin-bottom: 0;
 }
 
 .card-blog .card-title {
   font-size: 1.3rem;
-  margin-top: .6rem;
+  margin-top: 0.6rem;
 }
 
 .card-blog .card-description {
@@ -1197,8 +1199,8 @@ color: #fff;
 .widget-tags ul li {
   display: inline-block;
   background-color: #0078ff;
-  padding: .2rem .6rem;
-  margin-bottom: .5rem;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.5rem;
   border-radius: 15px;
 }
 
@@ -1229,7 +1231,7 @@ footer {
 }
 
 footer .copyright {
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 footer .credits {
@@ -1284,7 +1286,7 @@ footer .credits a {
 
 .button {
   display: inline-block;
-  padding: .3rem .6rem;
+  padding: 0.3rem 0.6rem;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -1292,7 +1294,7 @@ footer .credits a {
   -ms-user-select: none;
   user-select: none;
   font-size: 1rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   border: 1px solid transparent;
   transition: all 500ms ease;
   cursor: pointer;
@@ -1315,7 +1317,7 @@ footer .credits a {
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
+  padding: 0.9rem 2.3rem;
   font-size: 1.2rem;
 }
 
@@ -1324,10 +1326,10 @@ footer .credits a {
 }
 
 .btn-lg {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
 }
 
 @media (min-width: 577px) {
