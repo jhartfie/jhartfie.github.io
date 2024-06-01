@@ -39,7 +39,7 @@ const projects = [
   },
   {
     title: "MacTrac - a key counter",
-    img: "/img/MacTracPNG.png",
+    img: "../img/mactracpng.png",
     link: "mactrac.html",
     category: "Python",
   },
