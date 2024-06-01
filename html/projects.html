@@ -12,7 +12,6 @@
   <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <link href="/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="/lib/animate/animate.min.css" rel="stylesheet">
   <link href="/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -21,6 +20,39 @@
 
   <!-- Main Stylesheet File -->
   <link href="/css/style.css" rel="stylesheet">
+
+  <style>
+    .work-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      margin-bottom: 20px; /* Adjusts spacing between cards */
+    }
+
+    .work-img {
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .work-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .work-content {
+      padding: 15px;
+    }
+
+    .work-content h2 {
+      font-size: 1.5em;
+    }
+
+    .work-content .w-more {
+      margin-top: 10px;
+    }
+  </style>
 
 </head>
 
@@ -54,174 +86,30 @@
     </div>
   </nav>
 
-
-<section id="work" class="portfolio-mf sect-pt4 route">
+  <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
           <div class="title-box text-center">
             <hr style="height:20px; visibility:hidden;" />
-
-
-            <h3 class="title-a">
-              Code
-            </h3>
+            <h3 class="title-a">Code</h3>
             <p class="subtitle-a">
-               Projects that demonstrate my skills and strengths.
+               Projects that demonstrate my skills and strengths. I'll dump projects in here whenever I see fit
                <br></br>
                Click a project to learn everything there is to know about it.
             </p>
-           
-        
             <div class="line-mf"></div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjOne.html">
-              <div class="work-img">
-                <img src="../img/bfs2.png" width="350" height="200" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Path Finder Visualizer</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">React JS</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjTwo.html">
-              <div class="work-img">
-                <img src="../img/FB.png" width="350" height="200" alt="">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Flappy Bird</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjThree.html">
-              <div class="work-img">
-                <img src="../img/sod1.png" width="350" height="200" alt="">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Sudoku</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-         <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjFour.html"> <!--- data-lightbox="gallery-mf"- -->
-              <div class="work-img">
-                <img src="../img/MS.png" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Minesweeper</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjSix.html">
-              <div class="work-img">
-                <img src="../img/ttt1.png" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Tic Tac Toe</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="ProjFive.html">
-              <div class="work-img">
-                <img src="/img/rubik.png" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">Rubiks Cube</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Python</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a> 
-          </div>
-        </div>
+      <div class="row" id="project-container">
+        <!-- Project cards will be injected here by JavaScript -->
       </div>
     </div>
   </section>
+
+  <!-- Include the projects.js script at the bottom before the closing body tag -->
+  <script src="projects.js"></script>
+</body>
+
+</html>
