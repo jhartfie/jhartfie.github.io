@@ -8,6 +8,15 @@ body {
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
+body2 {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
 #particles-js {
   background-color: #870000;
   position: absolute;
@@ -26,7 +35,13 @@ h5,
 h6 {
   color: #1e1e1e;
 }
-
+.text-primary {
+  color: #007bff !important;
+  text-decoration: none;
+}
+.text-primary:hover {
+  text-decoration: underline;
+}
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
@@ -144,12 +159,20 @@ a:hover {
 
 /*--/ Title s /--*/
 
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
   font-size: 1.1rem;
 }
-
+.title-s2 {
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+}
 /*--/ Title A /--*/
 
 .title-box {
@@ -207,7 +230,12 @@ a:hover {
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
-
+.box-shadow-full2 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+}
 /*------/ Socials /------*/
 
 .socials {
@@ -410,6 +438,22 @@ a:hover {
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ddd;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
 .navbarrr {
   transition: all 0.5s ease-in-out;
   background-color: black;
@@ -847,7 +891,10 @@ a:hover {
 .about-mf .about-img img {
   margin-left: 10px;
 }
-
+.about-img img {
+  border-radius: 50%;
+  border: 5px solid #007bff;
+}
 .skill-mf span {
   color: #4e4e4e;
 }
